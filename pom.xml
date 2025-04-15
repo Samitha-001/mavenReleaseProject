@@ -13,9 +13,9 @@
     <module>mavenReleaseProjectCompositeExporter</module>
   </modules>
   <scm>
-    <connection>scm:git:https://github.com/username/repository.git</connection>
-    <developerConnection>scm:git:https://github.com/username/repository.git</developerConnection>
-    <url>https://github.com/username/repository.git</url>
+    <connection>scm:git:https://github.com/Samitha-001/mavenReleaseProject.git</connection>
+    <developerConnection>scm:git:https://github.com/Samitha-001/mavenReleaseProject.git</developerConnection>
+    <url>https://github.com/Samitha-001/mavenReleaseProject.git</url>
   </scm>
   <distributionManagement>
     <repository>
