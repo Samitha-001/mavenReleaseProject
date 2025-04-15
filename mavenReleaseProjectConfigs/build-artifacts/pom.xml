@@ -13,4 +13,11 @@
   <packaging>pom</packaging>
   <name>mavenReleaseProjectConfigs_module</name>
   <description>mavenReleaseProjectConfigs_module</description>
+  <modules>
+    <module>api/sampleAPI</module>
+    <module>metadata/sampleAPI_swagger</module>
+    <module>metadata/sampleAPI_metadata</module>
+    <module>proxy-services/sampleProxy</module>
+    <module>metadata/sampleProxy_proxy_metadata</module>
+  </modules>
 </project>
