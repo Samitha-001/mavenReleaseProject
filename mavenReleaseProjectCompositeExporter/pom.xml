@@ -25,31 +25,31 @@
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>sampleAPI_metadata</artifactId>
-      <version>1.0.6</version>
+      <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>sampleProxy_proxy_metadata</artifactId>
-      <version>1.0.6</version>
+      <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.proxy-service</groupId>
       <artifactId>sampleProxy</artifactId>
-      <version>1.0.6</version>
+      <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.api</groupId>
       <artifactId>sampleAPI</artifactId>
-      <version>1.0.6</version>
+      <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>sampleAPI_swagger</artifactId>
-      <version>1.0.6</version>
+      <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
   </dependencies>
