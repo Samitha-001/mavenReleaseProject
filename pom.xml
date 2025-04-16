@@ -19,10 +19,15 @@
   </scm>
   <distributionManagement>
     <repository>
-      <id>release</id>
-      <name>Release Distribution Repository</name>
-      <url>https://samitharathnayake001@dev.azure.com/samitharathnayake001/checkMavenRelease/_git/checkMavenRelease</url>
-    </repository>
+  <id>samitharathnayake001</id>
+  <url>https://pkgs.dev.azure.com/samitharathnayake001/_packaging/samitharathnayake001/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
   </distributionManagement>
   <properties>
     <project.scm.id>integration-project</project.scm.id>
