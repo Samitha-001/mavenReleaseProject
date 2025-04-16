@@ -4,12 +4,12 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>mavenReleaseProjectConfigs_module</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.example.metadata</groupId>
   <artifactId>sampleAPI_swagger</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>synapse/metadata</packaging>
   <name>sampleAPI_swagger</name>
   <description>sampleAPI_swagger</description>
