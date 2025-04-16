@@ -4,20 +4,20 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>mavenReleaseProjectConfigs_module</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.3-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
-  <groupId>com.example.api</groupId>
-  <artifactId>sampleAPI</artifactId>
-  <version>1.0.7</version>
-  <packaging>synapse/api</packaging>
-  <name>sampleAPI</name>
-  <description>sampleAPI</description>
+  <groupId>com.example.metadata</groupId>
+  <artifactId>sampleAPI_metadata</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
+  <packaging>synapse/metadata</packaging>
+  <name>sampleAPI_metadata</name>
+  <description>sampleAPI_metadata</description>
   <build>
     <plugins>
       <plugin>
         <groupId>org.wso2.maven</groupId>
-        <artifactId>wso2-mi-synapse-plugin</artifactId>
+        <artifactId>wso2-esb-metadata-plugin</artifactId>
         <version>5.2.44</version>
         <extensions>true</extensions>
         <dependencies>
@@ -28,7 +28,7 @@
           </dependency>
         </dependencies>
         <configuration>
-          <artifact>../../../src/main/synapse-config/api/sampleAPI.xml</artifact>
+          <artifact>../../../src/main/resources/metadata/sampleAPI_metadata.yaml</artifact>
         </configuration>
       </plugin>
     </plugins>

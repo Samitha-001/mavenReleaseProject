@@ -4,15 +4,15 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>mavenReleaseProjectConfigs_module</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.3-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
-  <groupId>com.example.api</groupId>
-  <artifactId>sampleAPI</artifactId>
-  <version>1.0.7</version>
-  <packaging>synapse/api</packaging>
-  <name>sampleAPI</name>
-  <description>sampleAPI</description>
+  <groupId>com.example.proxy-service</groupId>
+  <artifactId>sampleProxy</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
+  <packaging>synapse/proxy-service</packaging>
+  <name>sampleProxy</name>
+  <description>sampleProxy</description>
   <build>
     <plugins>
       <plugin>
@@ -28,7 +28,7 @@
           </dependency>
         </dependencies>
         <configuration>
-          <artifact>../../../src/main/synapse-config/api/sampleAPI.xml</artifact>
+          <artifact>../../../src/main/synapse-config/proxy-services/sampleProxy.xml</artifact>
         </configuration>
       </plugin>
     </plugins>
